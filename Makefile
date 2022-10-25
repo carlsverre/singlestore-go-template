@@ -26,7 +26,7 @@ stop-singlestore:
 
 check-env:
 ifndef SINGLESTORE_LICENSE
-	$(error SINGLESTORE_LICENSE is undefined; you can get a free license here: https://portal.memsql.com/)
+	$(error SINGLESTORE_LICENSE is undefined; you can get a free license here: https://portal.singlestore.com/)
 endif
 
 # .PHONY tells Makefile to ignore files named after these targets, will ensure
